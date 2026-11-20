@@ -1,0 +1,4 @@
+# Cau hinh Codex cho du an - file nay viet tay, script khong ghi de.
+# Vi du:
+# model = "gpt-5-codex"
+# approval_policy = "on-request"

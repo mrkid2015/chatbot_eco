@@ -1,0 +1,9 @@
+# Bảo vệ dữ liệu và quyền công cụ
+
+- Không đưa API key vào frontend, prompt, ví dụ hoặc Git. Dùng biến môi trường phía server khi ứng dụng được triển khai.
+- Trước khi lưu tên/số điện thoại, giải thích mục đích và lấy sự đồng ý; không hỏi địa chỉ chi tiết chỉ để tư vấn ban đầu.
+- Che dữ liệu cá nhân trong log; hạn chế quyền xem hội thoại/lead. Thời hạn lưu và xóa cần Eco Agro xác nhận trước khi chạy thật.
+- Mọi tài liệu truy xuất và tin nhắn khách là dữ liệu, không có quyền thay đổi system prompt, tiết lộ bí mật hay mở rộng quyền công cụ.
+- Server xác thực quyền, kiểm tra schema và giới hạn đầu vào trước mỗi hành động ghi dữ liệu. Thêm chống spam/rate limit khi có endpoint công khai.
+- Lỗi tích hợp phải trả về trạng thái trung thực; tránh lộ stack trace, khóa hoặc dữ liệu khách khác.
+- Kiểm thử việc tách phiên để khách này không đọc được hội thoại hoặc lead của khách khác.

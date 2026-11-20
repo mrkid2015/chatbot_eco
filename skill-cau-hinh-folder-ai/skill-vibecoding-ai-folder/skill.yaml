@@ -1,0 +1,5 @@
+name: vibecoding_ai_folder
+title: "Vibecoding AI Folder Setup — 1 folder dùng chung Claude Code, Codex, Antigravity"
+description: "Set up the one-master AI folder layout from the TikTok vibecoding video: .claude/ as the single source of truth for skills, commands, rules and agents, with a sync script that generates .agents/ for Codex and Antigravity, .codex/agents/*.toml, and AGENTS.md from CLAUDE.md, so one setup serves all three AI tools in VS Code."
+category: "Work and knowledge"
+include_in_prompt: true

@@ -1,0 +1,27 @@
+# Secrets and local environments
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Dependencies and build artifacts, if the proposed web stack is adopted
+node_modules/
+.next/
+dist/
+coverage/
+*.log
+
+# Local business/customer data: keep approved sanitized fixtures separately
+data/private/
+data/uploads/
+backups/
+# Business workbooks contain internal content and, in one source, chat logs.
+/ECO_Du_lieu_san_pham.xlsx
+/DB-Chatbot-Chan-Doan-Sau-Benh.xlsx
+data/cleaned/
+data/runtime/
+.DS_Store
+Thumbs.db
